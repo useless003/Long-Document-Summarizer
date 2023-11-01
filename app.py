@@ -60,7 +60,7 @@ if __name__ == "__main__":
     st.markdown("")
     st.markdown("")
 
-    range = st.slider("Choose the range of the summarization", value=50, min_value=10, max_value=1000, step=10)
+    range = st.slider("Choose the range of the summarization", value=25, min_value=5, max_value=100, step=1)
     # Get user input for the text
     text = get_pdf_text(file)
     st.markdown("")
