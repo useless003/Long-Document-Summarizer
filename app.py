@@ -5,6 +5,7 @@ from nltk.corpus import stopwords
 from nltk.tokenize import sent_tokenize, word_tokenize
 from nltk.probability import FreqDist
 
+nltk.download("punkt")
 
 def get_pdf_text(pdf_docs):
     text = ""
